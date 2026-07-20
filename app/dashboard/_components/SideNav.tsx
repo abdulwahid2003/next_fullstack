@@ -37,7 +37,7 @@ function SideNav() {
     <div className="w-64 h-screen shadow-md p-5">
       <div className="grid gap-3">
         {MenuOptions.map((item, index) => (
-          <Link href={item.path}>
+        <Link key={`${item}+${Math.random() }`} href={item.path}>
             <div
               key={`${item}`}
               className={`flex items-center gap-3 p-3 hover:bg-primary hover:text-white rounded-md cursor-pointer ${pathname == item.path && "bg-primary text-white"}`}
