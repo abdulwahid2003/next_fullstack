@@ -15,8 +15,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Ashsj",
-  description: "1sksj",
+  title: "Next JS 13 + Clerk + TailwindCSS + TRPC + Prisma + PlanetScale",
+  description: "Next JS 13 + Clerk + TailwindCSS + TRPC + Prisma + PlanetScale",
 };
 const oswald = Oswald({subsets:["cyrillic-ext"]})
 export default function RootLayout({
