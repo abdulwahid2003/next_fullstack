@@ -1,0 +1,19 @@
+
+name: My First Workflow
+
+on: workflow_dispatch
+
+jobs:
+  first-job:
+    name: First Job
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Print Hello
+        run: echo "Hello World!"
+
+      - name: Show Current Date
+        run: date
+
+      - name: Show Repository Files
+        run: ls -la
